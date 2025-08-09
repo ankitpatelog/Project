@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap");
+
+.nata-sans {
+  font-family: "Nata Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-image: url("Assets/images/IN-en-20250721-TRIFECTA-perspective_cadc8408-df6e-4313-a05d-daa9dcac139f_small.jpg");
+  width: 100vw;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+  z-index: 0;
+}
+
+/* black tint */
+.main-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.68);
+}
+
+.nav-box {
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.logo-1 {
+  height: 90px;
+  width: 60vw;
+}
+
+.logo-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn {
+  font-family: "Nata Sans", sans-serif;
+  font-size: 13px;
+  padding-bottom: 3px;
+  border-radius: 4px;
+  height: 35px;
+}
+
+.btn-1 {
+  width: 115px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-2:hover {
+  background-color: rgb(161, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(161, 0, 0);
+}
+
+.btn-2 {
+  width: 70px;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-3 {
+  height: 57px;
+  width: 210px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  font-family: sans-serif;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 3px;
+
+  color: white;
+  cursor: pointer;
+}
+.btn-3:hover {
+  background-color: rgb(161, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(161, 0, 0);
+}
+
+.sign-in {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-content: space-around;
+}
+.btn-3 > svg {
+  height: 13px;
+  width: 13px;
+  fill: white;
+  padding: 0px;
+  margin-left: 13px;
+  margin-bottom: 1px;
+  size: 1px;
+}
+
+.btn-1 svg {
+  fill: rgb(255, 255, 255);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-1 {
+  width: 50vw;
+  height: auto;
+  margin: auto;
+  margin-top: 125px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding: 38px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  z-index: 2;
+  gap: 12px;
+}
+
+.area-1 {
+  font-size: 56px;
+  font-weight: 900;
+  font-family: sans-serif;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  line-height: 70px;
+}
+
+.area-2 {
+  line-height: normal;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: sans-serif;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.area-3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: sans-serif;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.content-2 {
+  display: flex;
+  gap: 8px;
+  position: relative;
+  z-index: 1;
+  font-family: sans-serif;
+}
+
+.text-input {
+    padding-left: 23px;
+  line-height: 24px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  height: 57px;
+  width: 371px;
+
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
