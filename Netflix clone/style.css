@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap");
 
+html,
+body {
+  overflow-x: hidden;
+  background-color: black;
+}
+
 .nata-sans {
   font-family: "Nata Sans", sans-serif;
   font-optical-sizing: auto;
@@ -16,7 +22,7 @@
 .main {
   background-image: url("Assets/images/IN-en-20250721-TRIFECTA-perspective_cadc8408-df6e-4313-a05d-daa9dcac139f_small.jpg");
   width: 100vw;
-  height: 600px;
+  height: 727px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -197,7 +203,7 @@
 }
 
 .text-input {
-    padding-left: 23px;
+  padding-left: 23px;
   line-height: 24px;
   font-size: 20px;
   font-family: sans-serif;
@@ -209,3 +215,43 @@
 
   border: 2px solid rgba(255, 255, 255, 0.5);
 }
+
+.seperation {
+  width: 100vw;
+  height: 5px;
+  background-color: gray;
+  border-radius: 2px;
+}
+
+.trending {
+  height: auto;
+  width: 85vw;
+  margin: 29px auto 0 auto;
+}
+
+.trend-1 {
+  font-size: 28px;
+  height: 66px;
+  width: 100%;
+  color: white;
+  font-weight: 400;
+  font-family: sans-serif;
+  padding: 9px;
+}
+
+.trend-2 {
+  align-content:space-between ;
+  gap: 37px;
+  width: 70vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.images{
+  height: auto;
+  width: auto;
+  border-radius: 2px;
+}
+
+
